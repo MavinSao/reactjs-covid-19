@@ -22,11 +22,11 @@ export default class Menu extends Component {
               <Nav.Link as={Link} to="/">
                 Home
               </Nav.Link>
+              <Nav.Link as={Link} to="/globle">
+                Global
+              </Nav.Link>
               <Nav.Link as={Link} to="/news">
                 News
-              </Nav.Link>
-              <Nav.Link as={Link} to="/globle">
-                Globle
               </Nav.Link>
               <NavDropdown title="Language" id="basic-nav-dropdown">
                 <NavDropdown.Item>Khmer</NavDropdown.Item>
